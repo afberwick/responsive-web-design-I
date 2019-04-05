@@ -193,18 +193,25 @@ header nav {
   }
 
   header {
-      flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
   }
+  
+  nav {
+    order: 1;
+  }
+
 
   header nav {
-      width: 768px;
-      padding: 0 30px;
-  }
+      width: 100%;
+      margin:8%;
+ }
 
   header .logo {
-      order: -1;
-      display: block;
-      margin: 30px auto 0;
+      display:flex;
+      margin: auto;
+      padding-top: 8%;
   }
 
   .cta {
@@ -212,7 +219,8 @@ header nav {
   }
   
   .cta .cta-text {
-      margin: 0;
+      margin: auto;
+      padding-left: 30%;
   }
 
   .cta img {
@@ -225,10 +233,39 @@ header nav {
 
   .main-content {
      margin: 75px 20px 35px;
+     
+  }
+ .top-content {
+  display: flex; 
+  flex-direction: row;
+  margin: 25px;
+
+ }
+
+  .zerozero {   
+    width: 325px;
+ }
+
+  .oneone {
+    width: 325px;
   }
 
-  .text-content {
-      margin: 0 10px;
+  .bottom-content{
+    display: flex; 
+    flex-direction: row;
+    margin: 25px;
+
+  }
+  .twotwo {
+    width: 200px;
+  }
+
+  .threethree {
+    width: 200px;
+  }
+
+  .fourfour {
+    width: 200px;
   }
 
   .contact {
